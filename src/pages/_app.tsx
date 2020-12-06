@@ -5,7 +5,7 @@ import { API_URL } from '../constants';
 import theme from '../theme';
 
 const client = createClient({
-	url: 'http://localhost:4000' || API_URL,
+	url: API_URL,
 	fetchOptions: { credentials: 'include' },
 });
 
